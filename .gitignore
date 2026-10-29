@@ -1,0 +1,8 @@
+
+.venv311/
+venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+pneumonia_densenet121.keras
