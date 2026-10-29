@@ -226,6 +226,28 @@ The trained model must be available at the location expected by `app.py`. Large 
 ## 👨‍💻 Project Information
 
 **Project:** Pneumonia Detection Using DenseNet121, GANs and Grad-CAM  
+## 🧪 Web Application Results
+
+The trained DenseNet121 model is integrated into a web application that accepts chest X-ray images and displays a predicted class: **NORMAL** or **PNEUMONIA**. The application also generates a Grad-CAM heatmap to visualize image regions that influenced the model's prediction.
+
+### 1. Pneumonia Prediction
+
+![Pneumonia Prediction](pneumonia_prediction.png)
+
+### 2. Pneumonia Grad-CAM Visualization
+
+![Pneumonia Grad-CAM](pneumonia_grad_cam.png)
+
+### 3. Normal X-ray Prediction
+
+![Normal Prediction](normal_prediction.png)
+
+### 4. Normal X-ray Grad-CAM Visualization
+
+![Normal Grad-CAM](normal_grad_cam.png)
+
+*Note: This is an educational deep-learning project, not a substitute for professional medical diagnosis.*
+
 **Domain:** Deep Learning and Medical Image Analysis  
 **Interface:** Streamlit  
 **Notebook:** Google Colab
